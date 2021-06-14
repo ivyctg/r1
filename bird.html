@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>菜鸟教程首页导航</title>
+    <style>
+        body,ul,li{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #F6F6F6;
+        }
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        #nav{
+            margin-top: 90px;
+            width: 100%;
+            height: 24px;
+            background-color: #96B97D;
+            padding-top:10px;
+            position: relative;
+        }
+        #nav ul{
+            width: 1280px;
+            margin: 0 auto;
+            font-size: 14px;
+        }
+        #nav li{
+            float: left;
+            margin-right: 30px;
+        }
+        #nav a{
+            color:white;
+        }
+        #nav a:hover{
+            color:#D4C4E7;
+        }
+
+        #triangle{
+            display: inline-block;
+            width:0;
+            height: 0;
+            border-right: 5px solid transparent;
+            border-left: 5px solid transparent;
+            border-bottom: 5px solid #fff;
+            position: absolute;
+            top:29px;
+            left:328px;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">菜鸟笔记</a></li>
+            <li><a href="#">菜鸟工具</a></li>
+            <li><a href="#">参考手册</a></li>
+            <li><a href="#">用户笔记</a></li>
+            <li><a href="#">测验/考试</a></li>
+            <li><a href="#">本地书签</a></li>
+        </ul>
+        <div id="triangle"></div>
+    </div>
+</body>
+</html>
